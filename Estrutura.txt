@@ -1,0 +1,31 @@
+UTILIZAÇÃO DE IA (CLAUDE)
+=====================================
+
+Para a elaborção desse projeto eu utilizei o Claude como ferramenta de apoio para entender os conceitos de HTML na prática, semânticamente e para revisar meu código, tirando dúvidas sobre o uso correto das tags. Todo o código foi escrito por mim, e as decisões finais de estrutura como a escolha entre <section> e <aside> foram minhas, com base no entendimento que desenvolvi. Cada método utilizado no código foi explicado, entendido, anotado e revisado, sem qualquer tipo de cópia.
+
+JUSTIFICATIVA DA ESTRUTURA SEMÂNTICA
+=====================================
+
+<header>: Utilizei o header para fazer o cabeçalho da página, usando o h1 para titulo principal, juntamente com um input para a caixa de pesquisa
+
+<nav>: No nav eu coloquei <ul> e <li>, porque funciona como um conjunto de links facilitando a navegação do usuário pela página, no começo eu utilizei <a> para fazer esse bloco, mas estaria errado semânticamente.
+
+<main>: A main foi usada para ser o corpo da página, assim colocando todas as tags utilizadas.
+
+<section>: A section foi utilizada, para criar os campos, separando seção por seção da página.
+
+<article>: O article eu utilizei para fazer a criação dos 3 tópicos passados, Inteligência Artificial, Desenvolvimento Web, Segurança da Informação; dentro dele eu coloquei os links em forma de texto referente a cada tópico.
+
+<aside>: O aside foi utilizado ao inves do section naquele campo, pois o aside funciona como um conteúdo complementar da página, e não uma sequencia do fluxo principal onde se utiliza a tag <section>.
+
+<footer>: O footer foi utilizado para fazer o rodapé da pagina, inseri também targets para quando o usuario clicar em algum desses itens do rodapé, ser direcionado para uma nova página ao inves de sair da atual.
+
+NAVEGAÇÃO POR TECLADO
+=====================================
+
+Testei a navegação por teclado usando a tecla Tab e confirmei que o foco percorre os elementos na ordem lógica da página: menu de navegação, banner, artigos de destaque, conteúdos recentes e rodapé.
+
+VALIDAÇÃO W3C
+=====================================
+
+Durante o processo eu tive problemas com dois erros de sintaxe o <ul> que digitei <u1> por engano e alguns ">" sobrando em algumas tags, e ao rodar novamente no W3C o resultado foi que não havia mais erros.
